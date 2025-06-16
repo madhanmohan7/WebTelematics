@@ -28,9 +28,9 @@ class MyApp extends StatelessWidget {
         );
       },
 
-      // initialRoute: RouteNames.loginPage,
-      // onGenerateRoute: RouteGenerator.generateRoute,
-      home: MapScreen(),
+      initialRoute: RouteNames.loginPage,
+      onGenerateRoute: RouteGenerator.generateRoute,
+      // home: MapScreen(),
     );
   }
 }
