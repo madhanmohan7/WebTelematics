@@ -1,12 +1,13 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 // import 'package:obdtelematics/testCode.dart';
-
+import 'package:flutter/semantics.dart';
 import 'src/utils/routes/route_names.dart';
 import 'src/utils/routes/routes.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
+  SemanticsBinding.instance.ensureSemantics();
   runApp(const MyApp());
 }
 
